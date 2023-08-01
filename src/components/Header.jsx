@@ -12,7 +12,7 @@ function Header(props) {
         <div className="flex justify-between mx-2 sm:mx-auto max-w-6xl items-center py-6">
             <div className="flex">
                 <MenuItem title="Home" address="/" Icon={AiFillHome}/>
-                <MenuItem title="About" address="/" Icon={AiFillInfoCircle}/>
+                <MenuItem title="About" address="/about" Icon={AiFillInfoCircle}/>
             </div>
 
             <div className="flex items-center space-x-5">
